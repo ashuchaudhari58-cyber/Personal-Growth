@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#16161a" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#f2f0eb"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="30" y="30" width="1140" height="570" fill="none" stroke="#16161a" stroke-width="2"/>
+
+  <!-- eyebrow -->
+  <rect x="80" y="112" width="44" height="3" fill="#d9480f"/>
+  <text x="140" y="121" font-family="'IBM Plex Mono', monospace" font-size="22" letter-spacing="4" fill="#6b6a66">ASHUTOSH CHAUDHARI</text>
+  <!-- title -->
+  <text x="74" y="250" font-family="'IBM Plex Sans', sans-serif" font-size="104" font-weight="300" letter-spacing="-3" fill="#16161a">Design Engineer</text>
+  <text x="80" y="315" font-family="'IBM Plex Mono', monospace" font-size="24" letter-spacing="2" fill="#16161a">HDD  |  MICROTUNNELLING  |  DIRECT PIPE  |  STRUCTURAL &amp; FEA</text>
+
+  <!-- crossing drawing -->
+  <g fill="none">
+    <path d="M80 430 H430 Q470 470 520 470 Q570 470 610 430 H1120" stroke="#16161a" stroke-width="2.5"/>
+    <path d="M120 430 L240 500 Q520 600 800 500 L1080 430" stroke="#d9480f" stroke-width="5"/>
+    <path d="M120 395 H1080 M120 385 v20 M1080 385 v20" stroke="#6b6a66" stroke-width="1.5"/>
+  </g>
+  <rect x="96" y="418" width="56" height="12" fill="#16161a"/>
+
+  <!-- title block -->
+  <g font-family="'IBM Plex Mono', monospace" font-size="18" fill="#16161a">
+    <rect x="830" y="535" width="340" height="65" fill="#faf9f6" stroke="#16161a" stroke-width="2"/>
+    <path d="M920 535 V600" stroke="#16161a" stroke-width="2"/>
+    <text x="848" y="574" fill="#d9480f">PL 01</text>
+    <text x="938" y="574">M.TECH CAD/CAM · MNNIT</text>
+  </g>
+</svg>
